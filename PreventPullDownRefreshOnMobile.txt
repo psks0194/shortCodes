@@ -1,0 +1,18 @@
+//Created a class named scrolling  and added on html and body tag to stop scroll down on mobile.
+// for all browsers
+// safari chrome 
+// for iphone and android
+
+
+.scrolling {
+    overscroll-behavior: contain;
+    -webkit-overflow-scrolling: contain;
+    -moz-touch-action: contain;
+    -ms-touch-action: contain;
+    touch-action: none;
+    -webkit-touch-action: none;
+    -moz-touch-action: none;
+    -ms-touch-action: none;
+    overflow: hidden;
+}
+
